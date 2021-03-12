@@ -1,0 +1,77 @@
+form {
+    background-color: rgb(244,252,232);
+    width: 500px;
+    padding: 1em;
+    border-radius: 10px;
+}
+fieldset {
+    background-color: rgba(126,208,214,0.3);
+    border: 3px solid rgb(255,255,255);
+    border-radius: 10px;
+    margin: 0 0 1em 0;
+}
+fieldset:hover {
+    background-color: rgba(126,208,214,0.3);
+}
+legend {
+    font-size: 120%;
+    font-style: italic;
+    text-align: right;
+}
+form div {
+    float: left;
+    width: 100%;
+    padding: 0 0 0.75em 0;
+}
+form label {
+    float: left;
+    width: 30%;
+    font-size: 117%;
+}
+form input, select {
+    width: 65%;
+    font-size: 133%;
+    border: 0;
+    border-radius: 10px;
+    padding: 0.25em;
+}
+div.submit {
+    float: none;
+    background-color: rgba(126,208,214,0.3);
+    border: 3px solid rgba(255,255,255);
+    border-radius: 10px;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0 0.5em 0 ;
+    text-align: center;
+}
+form input[type="submit"] {
+    width: auto;
+    border: 3px solid rgb(126,208,214);
+    background-color: rgba(78,150,137,0.5);
+    color: rgb(255,255,255);
+}
+form input[type="submit"]:hover {
+    background-color: rgba(78,150,137);
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  .desno {
+      text-align: right;
+      text-decoration: none;
+  }
+   a {
+    text-decoration: none;
+  }
+  .poraka {
+    color: green;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .greska {
+    color: red;
+    font-size: 1.2em;
+  }
+
